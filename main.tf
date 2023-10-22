@@ -4,6 +4,6 @@ provider "aws" {
 
 resource "aws_s3_bucket" "my_bucket" {
 	bucket = "s3-test-basic-public"
-	acl = "public"
+	acl = "public-read"
 }
 
